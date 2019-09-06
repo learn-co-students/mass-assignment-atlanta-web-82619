@@ -15,7 +15,7 @@ describe Person do
       :weight => "good",
       :handed => "lefty",
       :complexion => "decent",
-      :t_shirt_size => "medium",
+      :shirt_size => "medium",
       :wrist_size => "small",
       :glove_size => "normal",
       :pant_length => "32",
@@ -47,7 +47,7 @@ describe Person do
       expect(avi.weight).to eq(avi_attributes[:weight])
       expect(avi.handed).to eq(avi_attributes[:handed])
       expect(avi.complexion).to eq(avi_attributes[:complexion])
-      expect(avi.t_shirt_size).to eq(avi_attributes[:t_shirt_size])
+      expect(avi.shirt_size).to eq(avi_attributes[:shirt_size])
       expect(avi.wrist_size).to eq(avi_attributes[:wrist_size])
       expect(avi.glove_size).to eq(avi_attributes[:glove_size])
       expect(avi.pant_length).to eq(avi_attributes[:pant_length])
