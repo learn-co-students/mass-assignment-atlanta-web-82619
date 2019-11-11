@@ -7,7 +7,6 @@ class Person
   def initialize(attributes)
     attributes.each {|key, value| self.send(("#{key}="), value)}
   end
-  #your code here
 end
 
 jim_attributes = {:name => "Jim", :hair_color => "Dark Blonde", :height => "5'10", :eye_color => "green"}
